@@ -1,0 +1,25 @@
+.Nav {
+    background-color: #F6F6F8;
+}
+
+.Nav__logo {
+    float: left;
+}
+
+.Nav__h1 {
+    font-size: 1.25rem;
+    letter-spacing: -0.031rem;
+    color: #838691;
+    line-height: 1.75rem;
+    float: left;
+    padding: 0.875rem 1rem;
+}
+
+.Nav__h2 {
+    font-size: 0.875rem;
+    color: rgba(0, 0, 0, 0.65);;
+    text-align: right;
+    line-height: 1.5rem;
+    padding: 1rem 1.75rem;
+
+}

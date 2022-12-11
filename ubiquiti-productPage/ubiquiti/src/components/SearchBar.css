@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.SearchBar__input {
+    background-color: #F6F6F8;
+    background-image: url('../assets/Search-icon.png');
+    background-repeat: no-repeat;
+    background-position: 0.5rem 0.6rem;
+    border: none;
+    border-radius: 0.25rem;
+    width: 21.5rem;
+    height: 2.5rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    margin: 1rem 1.875rem;
+    padding-left: 2rem;
+    padding-top: -0.5rem;
+}
+
+input[type="text"] {
+   
+    padding-right: 50px;
+}
+
+.SearchBar_btn {
+    background-image: url('../assets/Close-icon.png'); 
+    background-color: transparent;
+    background-repeat: no-repeat;  
+    background-position: 0px 0px;  
+    border: none;          
+    cursor: pointer;        
+    height: 1.25rem;          
+    padding-left: 1.25rem;     
+    vertical-align: middle;
+    margin-left: -4rem;
+   
+}
+
+
+
+.SearchBar__filterTitle {
+    float: right;
+    margin: 0.5rem;
+}
+

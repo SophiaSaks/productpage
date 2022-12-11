@@ -1,0 +1,38 @@
+.GridView {
+   display: inline-flex;
+   margin: 0.5rem;
+   padding-left: 4rem;
+   
+}
+
+.GridView__deviceCard {
+    border: solid #DBDCE1;
+    border-radius: 0.5rem;
+    width: 12rem;
+    height: 12rem;
+}
+
+.GridView__device_thumbnail {
+    background-color: #F6F6F8;
+    border-radius: 0.5rem 0.5rem 0 0 ;
+    height: 70%;
+    width: 100%;
+}
+
+.GridView__deviceName {
+    opacity: 0.8;
+}
+
+.GridView__deviceName, .GridView__productLineName {
+    margin: 0.5rem;
+    font-size: 0.75rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+    
+}

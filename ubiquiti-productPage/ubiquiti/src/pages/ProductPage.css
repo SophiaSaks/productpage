@@ -1,0 +1,61 @@
+.ProductPage__card {
+    display: grid;
+    grid-template-columns: 3fr 1fr 2fr;
+}
+
+.ProductPage__sideTitle {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 0.875rem;
+    margin: 0.5rem;
+}
+
+.ProductPage__device_thumbnail {
+    height: 100%;
+    width: 100%;
+}
+
+.ProductPage__backLink {
+    background-image: url('../assets/Back-icon.png'); 
+    background-color: transparent;
+    background-repeat: no-repeat;  
+    background-size:1.6rem;        
+    cursor: pointer;           
+    padding-left: 2rem;  
+    vertical-align: middle;
+}
+
+.ProductPage__list_titles {
+    margin-top: 10rem;
+    width: 30rem;
+    display: block;
+    float: right;
+}
+
+.ProductPage__list_titles li {
+    margin-top: .1rem;
+    width: 26rem;
+    border-color:black;
+    border-bottom: solid .05rem;
+    height: 2rem;
+}
+
+.ProductPage__list_titles p:first-child {
+    margin-top: .1rem;
+    width: 10rem;
+    text-align: left;
+    display: block;
+    float: left;
+    color: rgba(0, 0, 0, 0.65);
+    opacity: 1;
+}
+
+.ProductPage__list_titles p:last-child {
+    margin-top: .1rem;
+    width: 16rem;
+    text-align: left;
+    display: block;
+    float: right;
+    opacity: 0.4;
+}
+

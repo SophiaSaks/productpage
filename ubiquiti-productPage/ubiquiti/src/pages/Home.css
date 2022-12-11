@@ -1,0 +1,86 @@
+.Home__gridLink {
+    float: right;
+}
+
+.gridBtn {
+    background-image: url('../assets/grid-active.png'); 
+    background-color: transparent;
+    background-repeat: no-repeat;  
+    background-position: 0px 0px;  
+    border: none;          
+    cursor: pointer;        
+    height: 1.25rem;           
+    vertical-align: middle;
+    float: right;
+    margin-right: 1rem;
+    margin-top: 1.2rem;
+}
+
+.listBtn {
+    background-image: url('../assets/filter__list-default.png'); 
+    background-color: transparent;
+    background-repeat: no-repeat;  
+    background-position: 0px 0px;  
+    border: none;          
+    cursor: pointer;        
+    height: 1.25rem;          
+    padding-left: 1.25rem;     
+    vertical-align: middle;
+    float: right;
+    margin-right: 1rem;
+    margin-top: 1.2rem;
+}
+
+.Collapsible__toggle { 
+    display: none; 
+} 
+
+    
+.Collapsible__card { 
+    margin: 1.2rem 0;
+} 
+
+
+.Collapsible__toggle:checked { 
+transform: rotate(90deg) translateX(-3px); 
+} 
+.Collapsible__content { 
+max-height: 0px; 
+overflow: hidden; 
+transition: max-height .25s ease-in-out; 
+} 
+
+.Collapsible__label {
+    text-decoration: none;
+}
+
+.Collapsible__toggle:checked + .Collapsible__label + .Collapsible__content { 
+max-height: 200px; 
+
+} 
+
+.Collapsible__toggle:checked+ .Collapsible__label { 
+border-bottom-right-radius: 0; 
+border-bottom-left-radius: 0; 
+} 
+
+.Collapsible__content .Collapsible__content-inner { 
+background: #F6F6F8; 
+border-bottom-left-radius: 0.5rem; 
+border-bottom-right-radius: 0.5rem; 
+padding: 0.5rem 1rem; 
+width: 12rem;
+} 
+
+.Collapsible__content {
+    overflow-y: scroll;
+}
+
+p {
+    padding: 0 2rem;
+}
+
+.SearchAndFilter {
+    display: grid;
+    grid-template-columns: 80% 5% 15%;
+}
